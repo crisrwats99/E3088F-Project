@@ -7312,6 +7312,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 92.71) (xy 153.67 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70cc4616-8e41-45f6-bec0-22639f6f40f6")
+	)
+	(wire
+		(pts
 			(xy 31.75 110.49) (xy 36.83 110.49)
 		)
 		(stroke
@@ -7929,16 +7939,6 @@
 			(type default)
 		)
 		(uuid "afe45079-3f04-4bff-8ddc-25e8ff500220")
-	)
-	(wire
-		(pts
-			(xy 143.51 92.71) (xy 149.86 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b050bcf0-782b-4a40-9cc1-5a26725cc865")
 	)
 	(wire
 		(pts
@@ -8562,6 +8562,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 92.71) (xy 143.51 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec26aa07-4b74-494a-88ba-4b41715e24a3")
+	)
+	(wire
+		(pts
 			(xy 48.26 85.09) (xy 48.26 86.36)
 		)
 		(stroke
@@ -8886,7 +8896,7 @@
 	)
 	(global_label "Pin20_5VOut"
 		(shape input)
-		(at 149.86 92.71 0)
+		(at 153.67 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8896,7 +8906,7 @@
 		)
 		(uuid "7430b071-a774-4575-a4f4-e8e9c4a9ab3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.7589 92.71 0)
+			(at 168.5689 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9114,7 +9124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0603WAF1002T5E:RESC1608X55N"
 			(at 213.36 138.43 0)
 			(effects
 				(font
@@ -9123,7 +9133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1365/1-3044649.pdf"
 			(at 213.36 138.43 0)
 			(effects
 				(font
@@ -9133,6 +9143,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 213.36 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C25804"
 			(at 213.36 138.43 0)
 			(effects
 				(font
@@ -9342,6 +9361,15 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS" "C3341"
+			(at 250.19 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d626536a-30f7-4bbb-a7cf-de371dfa6390")
 		)
@@ -9385,7 +9413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CL31B105KBHNNNE:CAPC3216X180N"
 			(at 48.26 88.9 0)
 			(effects
 				(font
@@ -9394,7 +9422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B105KBHNNNE_Spec.pdf"
 			(at 48.26 88.9 0)
 			(effects
 				(font
@@ -9404,6 +9432,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 48.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C1848"
 			(at 48.26 88.9 0)
 			(effects
 				(font
@@ -9677,7 +9714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CL21A106KAYNNNE:CAPC2012X135N"
 			(at 105.41 158.75 0)
 			(effects
 				(font
@@ -9686,7 +9723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www1.futureelectronics.com/doc/Samsung%20Electro-Mechanics/CL21A106KAYNNNE.pdf"
 			(at 105.41 158.75 0)
 			(effects
 				(font
@@ -9697,6 +9734,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 105.41 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" " C15850"
+			(at 105.41 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10154,7 +10200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CL21A106KAYNNNE:CAPC2012X135N"
 			(at 74.93 147.32 0)
 			(effects
 				(font
@@ -10163,7 +10209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www1.futureelectronics.com/doc/Samsung%20Electro-Mechanics/CL21A106KAYNNNE.pdf"
 			(at 74.93 147.32 0)
 			(effects
 				(font
@@ -10174,6 +10220,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 74.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C15850"
+			(at 74.93 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10788,7 +10843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0805W8F2003T5E:RESC2012X65N"
 			(at 106.68 170.18 0)
 			(effects
 				(font
@@ -11000,7 +11055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0603WAF1002T5E:RESC1608X55N"
 			(at 113.03 88.9 0)
 			(effects
 				(font
@@ -11009,7 +11064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1365/1-3044649.pdf"
 			(at 113.03 88.9 0)
 			(effects
 				(font
@@ -11019,6 +11074,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C25804"
 			(at 113.03 88.9 0)
 			(effects
 				(font
@@ -11134,7 +11198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "INA219BIDR:SOIC127P599X175-8N"
 			(at 80.01 116.84 0)
 			(effects
 				(font
@@ -11198,75 +11262,6 @@
 			(project "MM"
 				(path "/c08f2f70-f64e-46c6-9738-1b2adc0f0e4b"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 191.77 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54b2923b-6d5a-442e-b9cc-50615e2c7517")
-		(property "Reference" "C16"
-			(at 195.58 133.9849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u"
-			(at 184.658 138.176 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 191.77 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3d716ca-2545-41f8-a6b1-85ff0f165cc4")
-		)
-		(pin "2"
-			(uuid "017a1061-d491-431c-8dba-a0a403737d7b")
-		)
-		(instances
-			(project "MM"
-				(path "/c08f2f70-f64e-46c6-9738-1b2adc0f0e4b"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -11498,7 +11493,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "WSL25121L000FEA18:RES_WSL25121L000FEA18"
 			(at 26.162 107.95 90)
 			(effects
 				(font
@@ -11507,7 +11502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/303/ohmite_CRS-1279334.pdf"
 			(at 27.94 107.95 0)
 			(effects
 				(font
@@ -11517,6 +11512,15 @@
 			)
 		)
 		(property "Description" "Shunt resistor, US symbol"
+			(at 27.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" " C149567"
 			(at 27.94 107.95 0)
 			(effects
 				(font
@@ -11574,7 +11578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0603WAF3301T5E:RESC1608X55N"
 			(at 71.12 92.71 0)
 			(effects
 				(font
@@ -11583,7 +11587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706198066577408"
 			(at 71.12 92.71 0)
 			(effects
 				(font
@@ -11593,6 +11597,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 71.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" " C22978"
 			(at 71.12 92.71 0)
 			(effects
 				(font
@@ -11739,6 +11752,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 45.72 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" ""
+			(at 45.72 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12377,7 +12399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CL21A106KAYNNNE:CAPC2012X135N"
 			(at 153.67 99.06 0)
 			(effects
 				(font
@@ -12386,7 +12408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www1.futureelectronics.com/doc/Samsung%20Electro-Mechanics/CL21A106KAYNNNE.pdf"
 			(at 153.67 99.06 0)
 			(effects
 				(font
@@ -12396,6 +12418,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 153.67 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" " C15850"
 			(at 153.67 99.06 0)
 			(effects
 				(font
@@ -12989,7 +13020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0603WAF1002T5E:RESC1608X55N"
 			(at 212.09 102.87 0)
 			(effects
 				(font
@@ -12998,7 +13029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1365/1-3044649.pdf"
 			(at 212.09 102.87 0)
 			(effects
 				(font
@@ -13008,6 +13039,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 212.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C25804"
 			(at 212.09 102.87 0)
 			(effects
 				(font
@@ -13534,7 +13574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "TPS2066DR:SOIC127P599X175-8N"
 			(at 128.27 85.09 0)
 			(effects
 				(font
@@ -13598,6 +13638,84 @@
 			(project "MM"
 				(path "/c08f2f70-f64e-46c6-9738-1b2adc0f0e4b"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 191.77 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b87344ac-b1a1-4eb0-8a1c-0833eb018b82")
+		(property "Reference" "C16"
+			(at 195.58 133.9849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470u"
+			(at 184.658 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 191.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://xonstorage.blob.core.windows.net/pdf/acmecon_rvt1c471m0810_apr22_xonlink.pdf"
+			(at 191.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 191.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C3341"
+			(at 191.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "126c5e46-8dc7-4077-87b7-52785fc50435")
+		)
+		(pin "2"
+			(uuid "886f15f2-3d69-42bf-ac84-7bdbb37f0366")
+		)
+		(instances
+			(project "MM"
+				(path "/c08f2f70-f64e-46c6-9738-1b2adc0f0e4b"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -14312,7 +14430,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CL31B105KBHNNNE:CAPC3216X180N"
 			(at 36.83 107.95 0)
 			(effects
 				(font
@@ -14321,7 +14439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31B105KBHNNNE_Spec.pdf"
 			(at 36.83 107.95 0)
 			(effects
 				(font
@@ -14331,6 +14449,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 36.83 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C1848"
 			(at 36.83 107.95 0)
 			(effects
 				(font
@@ -14523,7 +14650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CL21A106KAYNNNE:CAPC2012X135N"
 			(at 143.51 113.03 0)
 			(effects
 				(font
@@ -14532,7 +14659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www1.futureelectronics.com/doc/Samsung%20Electro-Mechanics/CL21A106KAYNNNE.pdf"
 			(at 143.51 113.03 0)
 			(effects
 				(font
@@ -14542,6 +14669,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" " C15850"
 			(at 143.51 113.03 0)
 			(effects
 				(font
@@ -14584,7 +14720,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 145.542 88.9 0)
+			(at 134.366 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14658,7 +14794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
 			(at 190.5 100.33 0)
 			(effects
 				(font
@@ -14667,7 +14803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://xonstorage.blob.core.windows.net/pdf/acmecon_rvt1c471m0810_apr22_xonlink.pdf"
 			(at 190.5 100.33 0)
 			(effects
 				(font
@@ -14677,6 +14813,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
+			(at 190.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C3341"
 			(at 190.5 100.33 0)
 			(effects
 				(font
@@ -14794,7 +14939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0603WAF3301T5E:RESC1608X55N"
 			(at 78.74 92.71 0)
 			(effects
 				(font
@@ -14803,7 +14948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706198066577408"
 			(at 78.74 92.71 0)
 			(effects
 				(font
@@ -14813,6 +14958,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 78.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" " C22978"
 			(at 78.74 92.71 0)
 			(effects
 				(font
@@ -14975,6 +15129,83 @@
 			(project "MM"
 				(path "/c08f2f70-f64e-46c6-9738-1b2adc0f0e4b"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 148.59 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f44b9965-e395-4721-9f1f-12fded7c954e")
+		(property "Reference" "C19"
+			(at 148.5963 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 148.5963 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CL21A106KAYNNNE:CAPC2012X135N"
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www1.futureelectronics.com/doc/Samsung%20Electro-Mechanics/CL21A106KAYNNNE.pdf"
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" " C15850"
+			(at 148.59 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b57cb499-6cc4-4039-bf57-a6752cb8c19b")
+		)
+		(pin "1"
+			(uuid "7e9d5ab2-832b-42d2-9646-bb24b22686f5")
+		)
+		(instances
+			(project "MM"
+				(path "/c08f2f70-f64e-46c6-9738-1b2adc0f0e4b"
+					(reference "C19")
 					(unit 1)
 				)
 			)

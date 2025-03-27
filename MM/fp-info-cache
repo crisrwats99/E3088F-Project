@@ -1,4 +1,18 @@
-24735605853036833
+24747807430017096
+0603WAF1002T5E
+RESC1608X55N
+
+
+0
+2
+2
+0603WAF3301T5E
+RESC1608X55N
+
+
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2565,6 +2579,20 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+CL21A106KAYNNNE
+CAPC2012X135N
+
+
+0
+2
+2
+CL31B105KBHNNNE
+CAPC3216X180N
+
+
 0
 2
 2
@@ -58435,6 +58463,13 @@ heatsink
 0
 0
 0
+INA219BIDR
+SOIC127P599X175-8N
+
+
+0
+8
+8
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -92868,6 +92903,13 @@ Logo WEEE
 0
 0
 0
+TPS2066DR
+SOIC127P599X175-8N
+
+
+0
+8
+8
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -99508,6 +99550,13 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+WSL25121L000FEA18
+RES_WSL25121L000FEA18
+
+
 0
 2
 2
