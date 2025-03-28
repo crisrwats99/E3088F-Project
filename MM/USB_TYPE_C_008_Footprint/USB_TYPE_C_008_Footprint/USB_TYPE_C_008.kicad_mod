@@ -1,0 +1,40 @@
+
+(kicad_mod (version 5) (generator pcbnew)
+  (module USB-TYPE-C-008 (layer F.Cu) (tedit 5A1DBFC1)
+    (descr "USB TYPE-C-008, 6-pin, power only, 10.005mm x 3.636mm")
+    (tags "USB Type-C")
+    (attr smd)
+    (fp_text reference REF** (at 0 -4.5) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value USB-TYPE-C-008 (at 0 4.5) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+
+    # USB Pads
+    (pad A5 smd rect (at -2.5 0) (size 0.8 1.6) (layers F.Cu F.Paste F.Mask))
+    (pad A9 smd rect (at 0 0) (size 0.8 1.6) (layers F.Cu F.Paste F.Mask))
+    (pad A12 smd rect (at 2.5 0) (size 0.8 1.6) (layers F.Cu F.Paste F.Mask))
+    (pad B5 smd rect (at -1.25 0) (size 0.8 1.6) (layers F.Cu F.Paste F.Mask))
+    (pad B9 smd rect (at 1.25 0) (size 0.8 1.6) (layers F.Cu F.Paste F.Mask))
+    (pad B12 smd rect (at 3.75 0) (size 0.8 1.6) (layers F.Cu F.Paste F.Mask))
+
+    # Shield pads for mechanical support
+    (pad SH1 smd rect (at -5.0025 -1.818) (size 1.8 2.5) (layers F.Cu F.Paste F.Mask))
+    (pad SH2 smd rect (at 5.0025 -1.818) (size 1.8 2.5) (layers F.Cu F.Paste F.Mask))
+    (pad SH3 smd rect (at -5.0025 1.818) (size 1.8 2.5) (layers F.Cu F.Paste F.Mask))
+    (pad SH4 smd rect (at 5.0025 1.818) (size 1.8 2.5) (layers F.Cu F.Paste F.Mask))
+
+    # Outline
+    (fp_line (start -5.5 -2.5) (end 5.5 -2.5) (layer F.SilkS) (width 0.12))
+    (fp_line (start 5.5 -2.5) (end 5.5 2.5) (layer F.SilkS) (width 0.12))
+    (fp_line (start 5.5 2.5) (end -5.5 2.5) (layer F.SilkS) (width 0.12))
+    (fp_line (start -5.5 2.5) (end -5.5 -2.5) (layer F.SilkS) (width 0.12))
+
+    # Courtyard
+    (fp_line (start -6 -3) (end 6 -3) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 6 -3) (end 6 3) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 6 3) (end -6 3) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -6 3) (end -6 -3) (layer F.CrtYd) (width 0.05))
+  )
+)
