@@ -585,6 +585,17 @@
       "version": 1
     },
     "net_format_name": "KiCad",
+<<<<<<< HEAD
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
+=======
+>>>>>>> e88bcec641ade341f4dc03b4a269f9568b46f20f
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
