@@ -5,7 +5,6 @@ This repository contains the hardware design files for the power subsystem of a 
 ## Repository Contents
 
 - `/MM/` – Main schematic and PCB layout files (KiCad 7.0+)
-- `/TP5100/` – Additional circuit block for battery charging options
 - `README.md` – Project documentation and instructions
 
 ## Power Subsystem Overview
@@ -57,7 +56,6 @@ The power module is responsible for delivering stable and regulated power to all
 2. Open the `.kicad_sch` and `.kicad_pcb` files in KiCad 7.0+.
 3. Review the schematic comments to understand functional blocks.
 4. Use the BOM and PnP files in `/MM/` to prepare for JLCPCB manufacturing.
-5. For charging circuits, consult the `/TP5100/` folder.
 
 ## 👤 Authors
 
